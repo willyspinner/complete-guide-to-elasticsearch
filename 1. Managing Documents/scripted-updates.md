@@ -2,6 +2,10 @@
 
 ## Updating a document with a script
 
+NOTE: ```ctx._source``` is the original document.
+
+
+
 ```
 POST /product/_doc/1/_update
 {

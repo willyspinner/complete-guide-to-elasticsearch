@@ -26,6 +26,8 @@ POST /product/_doc
 
 ## Deleting documents by query
 
+this is available at the index level. We basically delete documents by our match query to the our document's `category` field.
+
 ```
 POST /product/_delete_by_query
 {
@@ -36,3 +38,8 @@ POST /product/_delete_by_query
   }
 }
 ```
+
+(we will look at match queries later in the future).
+
+NOTE: it doesn't have to be a match query. It can be other queries.
+
